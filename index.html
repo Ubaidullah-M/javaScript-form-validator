@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+    <div class="container">
+        <h2>Register for your spot</h2>
+        <form action="#" id="form">
+            <div class="inputs">
+                <label for="name" id="full-name">Full Name</label>
+                <input type="text" id="name" class="right">
+                <p class="validate error">error message</p>
+                <i class="fa-solid fa-circle-exclamation error"></i>
+                <i class="fa-solid fa-circle-check success"></i>
+
+            </div>
+            <div class="inputs">
+                <label for="email" id="email-label">Email address</label>
+                <input type="email" id="email" class="right">
+                <p class="validate error">error message</p>
+                <i class="fa-solid fa-circle-exclamation error"></i>
+                <i class="fa-solid fa-circle-check success"></i>
+            </div>
+            <div class="inputs">
+                <label for="confirm-email" id="c-email-label">Confirm Email address</label>
+                <input type="text" id="confirm-email" class="right">
+                <p class="validate error">error message</p>
+                <i class="fa-solid fa-circle-exclamation error"></i>
+                <i class="fa-solid fa-circle-check success"></i>
+            </div>
+            <button id="btn">Submit</button>
+        </form>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
